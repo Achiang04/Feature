@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import AllScreen from '../../screen/AllScreen';
-import Maps from '../../screen/Maps';
+import AllScreen from '../../screen/AllScreen/AllScreen';
+import Maps from '../../screen/Maps/Maps';
 
 const Stack = createStackNavigator();
 
