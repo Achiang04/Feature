@@ -9,6 +9,8 @@ const styles = StyleSheet.create({
     padding: hp(5),
     backgroundColor: 'black',
     borderColor: 'black',
+    marginTop: hp(20),
+    width: wp(100),
   },
   text: {
     color: '#fff',

@@ -8,6 +8,10 @@ export default function AllScreen({navigation}) {
     <View style={styles.container}>
       <Text style={styles.text}>All Screen</Text>
       <Button press={() => navigation.navigate('Maps')} text={'Maps'} />
+      <Button
+        press={() => navigation.navigate('LazyLoads')}
+        text={'Lazy Loads'}
+      />
     </View>
   );
 }
