@@ -12,6 +12,10 @@ export default function AllScreen({navigation}) {
         press={() => navigation.navigate('LazyLoads')}
         text={'Lazy Loads'}
       />
+      <Button
+        press={() => navigation.navigate('SuccessLogin')}
+        text={'Logout'}
+      />
     </View>
   );
 }
